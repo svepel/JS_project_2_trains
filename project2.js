@@ -120,7 +120,6 @@ function stationSelect(){
         xmlhttp.send();
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                //	document.getElementById("content").innerHTML = xmlhttp.responseText;
                 jsonObj = JSON.parse(xmlhttp.responseText);
                 console.log(jsonObj);//for testing
                 // Call for a function which will parse the data to a table
