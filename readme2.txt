@@ -16,6 +16,8 @@ Done:
 - In search feeld the words are not case sencetive. 
 - Very well functional application
 - Comments are avalible in the code
+- Project published in GitHub: 
+- Project deployed to Netlify: https://dynamic-boba-288084.netlify.app/
 
 What can be done better:
 - Make sorting of the Arrival and Departure tables by time (much easier can be implemented with the external labriries)
