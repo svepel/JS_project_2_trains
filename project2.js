@@ -61,7 +61,6 @@ function printJSONStationTable(jsonObj, city) {
                 outArrival += '<td>' + trainNumber + '</td>'
                 console.log(data[i].trainNumber);//for testing
                 outArrival += '<td>' + from + " - " + to + '</td>';
-                //outArrival += '<td>' + departureDate + '</td>';
                 outArrival += '<td>' + scheduledTimeDate + '</td>';
                 outArrival += '<td>' + scheduledTimeTime + '</td>';
                 if (typeof actualTime !== 'undefined' && actualTime !== null){
@@ -69,14 +68,12 @@ function printJSONStationTable(jsonObj, city) {
                 }else{
                     outArrival += '<td>' + 'Arriving' + '</td>';
                 }
-                ///outArrival += '<td>' + actualTime + '</td>';
                 ///outArrival += '<td>' + type + '</td>';
 
             }else if (stationCode == station && type == "DEPARTURE") {
                 outDeparture += '<td>' + trainNumber + '</td>'
                 console.log(data[i].trainNumber);//for testing
                 outDeparture += '<td>' + from + " - " + to + '</td>';
-                //outDeparture += '<td>' + departureDate + '</td>';
                 outDeparture += '<td>' + scheduledTimeDate + '</td>';
                 outDeparture += '<td>' + scheduledTimeTime + '</td>';
                 if (typeof actualTime !== 'undefined' && actualTime !== null){
@@ -84,7 +81,6 @@ function printJSONStationTable(jsonObj, city) {
                 }else{
                     outDeparture += '<td>' + 'Departuring' + '</td>';
                 }
-                ///outDeparture += '<td>' + actualTime + '</td>';
                 ///outDeparture += '<td>' + type + '</td>';
 
             }
