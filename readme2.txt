@@ -16,7 +16,7 @@ Done:
 - In search feeld the words are not case sencetive. 
 - Very well functional application
 - Comments are avalible in the code
-- Project published in GitHub: 
+- Project published in GitHub: https://github.com/svepel/project-2
 - Project deployed to Netlify: https://dynamic-boba-288084.netlify.app/
 
 What can be done better:
