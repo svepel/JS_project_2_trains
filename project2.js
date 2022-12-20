@@ -17,7 +17,6 @@ function printJSONStationTable(jsonObj, city) {
     outArrival += '<th>' + 'Date' + '</th>';
     outArrival += '<th>' + 'Scheduled time' + '</th>';
     outArrival += '<th>' + 'Status' + '</th>';
-    //outArrival += '<th>' + 'Type' + '</th>';
     outArrival += '</tr>';
 
     var outDeparture = "<table class='table table-dark table-sm'>";
@@ -28,7 +27,6 @@ function printJSONStationTable(jsonObj, city) {
     outDeparture += '<th>' + 'Date' + '</th>';
     outDeparture += '<th>' + 'Scheduled time' + '</th>';
     outDeparture += '<th>' + 'Status' + '</th>';
-    //outDeparture += '<th>' + 'Type' + '</th>';
     outDeparture += '</tr>';
 
     /// Create a loop, which will run through the JSON data array. 
